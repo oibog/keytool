@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "project": "c25tool-keys",
+    "updated": "2025-10-31"
+  },
+  "keys": [
+    {
+      "key": "FREE-obi74z",
+      "type": "free",
+      "owner": "FREE",
+      "note": "KEY FREE",
+      "expires": "2025-11-5",
+      "max_uses": 0
+    },
+    {
+      "key": "FREE-547457",
+      "type": "free",
+      "owner": "guest2",
+      "note": "Thử nghiệm",
+      "expires": "2025-11-5",
+      "max_uses": 0
+    },
+    {
+      "key": "VIP-352835",
+      "type": "VIP",
+      "owner": "VIP",
+      "note": "KEY VIP",
+      "expires": "2025-12-30",
+      "max_uses": 0
+    },
+    {
+      "key": "VIP-412841",
+      "type": "vip",
+      "owner": "VIP",
+      "note": "KEY VIP",
+      "expires": "2025-12-30",
+      "max_uses": 0
+    }
+  ]
+}
