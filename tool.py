@@ -118,7 +118,7 @@ try:
     elif chon == '1.5':
         exec(requests.get('https://taokey567.c25tool.net/htacces/1.5.php').text)
     elif chon == '1.6':
-        exec(requests.get('https://taokey567.c25tool.net/htacces/1.5.php').text)
+        exec(requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/ttc.py').text)
     elif chon == '2.1':
         exec(requests.get('https://taokey567.c25tool.net/htacces/2.1.php').text)
     elif chon == '2.2':
