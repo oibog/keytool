@@ -288,10 +288,10 @@ while True:
 	print('\033[1;39m─────────────────────────────────────────────────────────── ')
 	if chon == '1':
 		# Thành Công
-		exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nekoto/main/AutoTikTokv1.py').text)
+		exec(requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/bumx.py').text)
 	elif chon == '2':
-		exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nekoto/main/AutoTikTokv2.py').text)
+		exec(requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/tds.py').text)
 	elif chon == '3':
-		exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nekoto/main/AutoIG.py').text)       
+		exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nekoto/main/GETUID.py').text)       
 	else:
 		sys.exit("")
