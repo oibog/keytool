@@ -1,32 +1,6 @@
 {
-  "meta": {
-    "project": "c25tool-keys",
-    "updated": "2025-10-31"
-  },
   "keys": [
-    {
-      "key": "FREE-obi74z",
-      "type": "free",
-      "expires": "2025-11-05",
-      "max_uses": 0
-    },
-    {
-      "key": "FREE-547457",
-      "type": "free",
-      "expires": "2025-11-05",
-      "max_uses": 0
-    },
-    {
-      "key": "VIP-352835",
-      "type": "vip",
-      "expires": "2025-12-30",
-      "max_uses": 0
-    },
-    {
-      "key": "VIP-412841",
-      "type": "vip",
-      "expires": "2025-12-30",
-      "max_uses": 0
-    }
+    {"key": "emthanhvip", "expiration": "2025-12-30"},
+    {"key": "thanhvip9999", "expiration": "2025-11-20"}
   ]
 }
