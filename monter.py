@@ -283,15 +283,17 @@ while True:
 	print("\033[1;37m╔══════════════════════╗         ")
 	print("\033[1;37m║  \033[1;32mTool Linh Tinh\033[1;37m      ║   ")
 	print("\033[1;37m╚══════════════════════╝           ")
-	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m00 \033[1;97m: \033[1;34mBumx \033[1;32m[Online] [HOT] ")
+	print(f"\033[1;97m[\033[1;32m*\033[1;97m] \033[1;33m4 \033[1;97m: \033[1;34mBumx \033[1;32m[Online] [HOT] ")
 	chon = input('\033[1;91m┌─╼\033[1;97m[\033[1;91m<\033[1;97m/\033[1;91m>\033[1;97m]--\033[1;91m>\033[1;97m Nhập lựa chọn \033[1;97m \n\033[1;91m└─╼\033[1;91m✈ \033[1;33m : ')
 	print('\033[1;39m─────────────────────────────────────────────────────────── ')
 	if chon == '1':
 		# Thành Công
-		exec(requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/bumx.py').text)
+		exec(requests.get('erorr').text)
 	elif chon == '2':
 		exec(requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/tds.py').text)
 	elif chon == '3':
-		exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nekoto/main/GETUID.py').text)       
+		exec(requests.get('https://raw.githubusercontent.com/Nhatp1/Nekoto/main/GETUID.py').text)
+	elif chon == '4':
+	    exec(requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/bumx.py').text)
 	else:
 		sys.exit("")
