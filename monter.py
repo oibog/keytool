@@ -148,7 +148,7 @@ def display_ip_address(ip_address):
             print(x, end="")
             time.sleep(0.001)
 
-        print(f"\033[1;32mĐịa chỉ IP : {ip_address}     Version: V1.6")  # {current_version}
+        print(f"\033[1;32mĐịa chỉ IP : {ip_address}     Version: V1.6.1")  # {current_version}
     else:
         print("Không thể lấy địa chỉ IP của thiết bị.")
 
