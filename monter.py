@@ -77,7 +77,7 @@ def main():
             code = requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/sms.py').text
             exec(code, globals())
         elif choice == "4":
-            code = requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/dos.py').text
+            code = requests.get('https://raw.githubusercontent.com/oibog/keytool/refs/heads/main/killv2.js').text
             exec(code, globals())
         else:
             console.print("[bold red]Lựa chọn không hợp lệ![/]")
